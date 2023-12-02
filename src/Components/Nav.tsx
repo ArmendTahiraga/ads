@@ -11,7 +11,7 @@ const Nav = () => {
 		<nav className="absolute z-10 w-full">
 			<div className="flex justify-between items-center w-4/5 mx-auto">
 				<Link to="/">
-					<img src={logo} alt="" className="h-20" />
+					<img src={logo} alt="" className="h-14 md:h-20" />
 				</Link>
 				<div className="hidden md:block">
 					<div className="flex justify-evenly items-center">
