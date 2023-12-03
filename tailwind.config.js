@@ -8,10 +8,7 @@ export default {
 			},
 			colors: {
 				primary: "#49544C",
-				secondary: "#61B278",
-			},
-			backgroundColor: {
-				green: "#5DB176",
+				secondary: "#22c55e",
 			},
 			height: {
 				"hero-section-md": "calc(100vh - 80px)",

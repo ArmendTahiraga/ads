@@ -1,5 +1,4 @@
-import { useContext } from "react";
-import { Context } from "../Context/Context";
+import { useContext } from "react";import { Context } from "../Context/Context";
 import { Link } from "react-router-dom";
 import image from "../../Images/boostBackground.png";
 
@@ -15,10 +14,13 @@ const Hero = () => {
 				</h1>
 				<p className="hidden md:block text-primary font-poppins text-xs mb-8">
 					{language === "EN"
-						? "As industry leaders, we distribute top-tier plant nutrients, additives, and potting mixes, ensuring quality for your gardens. Choose excellence, choose ADS."
-						: "Si lider të industrisë, ne shpërndajmë lëndë ushqyese, aditivë dhe përzierje të bimëve të standardeve të larta, duke siguruar cilësi për kopshtet tuaja. Zgjidhni ekselencën, zgjidhni ADS."}
+						? "As industry leaders, we distribute top-tier plant nutrients, additives, and potting mixes, ensuring quality for your gardens. Choose excellence, choose Canna - ADS Growshop."
+						: "Si lider të industrisë, ne shpërndajmë lëndë ushqyese, aditivë dhe përzierje të bimëve të standardeve të larta, duke siguruar cilësi për kopshtet tuaja. Zgjidhni ekselencën, zgjidhni Canna - ADS Growshop."}
 				</p>
-				<Link to="/products" className="text-gray-100 bg-green px-5 py-3 rounded-md font-medium font-poppins">
+				<Link
+					to="/products"
+					className="text-gray-100 bg-green-500 px-5 py-3 rounded-md font-medium font-poppins transition-shadow hover:shadow-xl"
+				>
 					{language === "EN" ? "View products" : "Shiko produktet"}
 				</Link>
 			</div>
@@ -26,7 +28,7 @@ const Hero = () => {
 				<img
 					src={image}
 					alt=""
-					className="rounded-xl rounded-bl-[48px] md:rounded-tr-[112px] shadow-hero-image max-h-[275px] md:max-h-none"
+					className="rounded-xl rounded-tr-3xl rounded-bl-[48px] md:rounded-tr-[112px]  shadow-hero-image max-h-[275px] md:max-h-none"
 				/>
 			</div>
 		</div>

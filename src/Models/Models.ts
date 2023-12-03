@@ -15,3 +15,10 @@ export type ProductType = {
 	productSizes: number[];
 	productPrices: number[];
 };
+
+export type BestsellerType = {
+	productName: string;
+	productMiniDescriptionEN: string;
+	productMiniDescriptionAL: string;
+	productImage: string[];
+};

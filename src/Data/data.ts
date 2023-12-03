@@ -1,5 +1,4 @@
-import { ProductType } from "../Models/Models";
-export const products: ProductType[] = [
+import { ProductType } from "../Models/Models";export const products: ProductType[] = [
 	{
 		productId: 1,
 		productName: "Canna Terra Vega",
@@ -27,6 +26,7 @@ export const products: ProductType[] = [
 			"/Images/terraFlores/terraFlores1L.png",
 			"/Images/terraFlores/terraFlores5L.png",
 			"/Images/terraFlores/terraFlores10L.png",
+			"/Images/terraFlores/terraFloresf.png",
 		],
 		productBestseller: true,
 		productSizes: [1, 5, 10],
@@ -67,7 +67,12 @@ export const products: ProductType[] = [
 			"Cannazym is a high-quality enzyme product that helps breaking down dead root material and turning it into nutrients for the plant. It also encourages beneficial micro-organisms, helps plants take up nutrients and increases the resistance against diseases.",
 		productMiniDescriptionAL:
 			"Cannazym është një produkt enzimë me cilësi të lartë që ndihmon në zbërthimin e materialit rrënjësor të vdekur dhe shndërrimin e tij në lëndë ushqyese për bimën. Ai gjithashtu inkurajon mikroorganizmat e dobishëm, ndihmon bimët të marrin lëndët ushqyese dhe rrit rezistencën ndaj sëmundjeve.",
-		productImage: ["/Images/cannazym/cannazym1L.png", "/Images/cannazym/cannazym5L.png", "/Images/cannazym/cannazym5L.png"],
+		productImage: [
+			"/Images/cannazym/cannazym1L.png",
+			"/Images/cannazym/cannazym5L.png",
+			"/Images/cannazym/cannazym5L.png",
+			"/Images/cannazym/cannazymf.png",
+		],
 		productBestseller: true,
 		productSizes: [1, 5, 10],
 		productPrices: [25, 110, 200],
@@ -87,10 +92,15 @@ export const products: ProductType[] = [
 		productId: 7,
 		productName: "Canna Boost",
 		productMiniDescriptionEN:
-			"Canna Boost increases the uptake of nutrients by boosting the metabolism of your plants. The focus on metabolism makes Canna Boost much more efficient than all the other boosters out there.",
+			"Canna Boost increases the uptake of nutrients by boosting the metabolism of your plants. The focus on metabolism makes Canna Boost much more efficient than all the other boosters out there. It is specially developed for short cycle plant varieties.",
 		productMiniDescriptionAL:
-			"Canna Boost rrit marrjen e lëndëve ushqyese duke nxitur metabolizmin e bimëve tuaja. Fokusi në metabolizëm e bën Canna Boost shumë më efikas se të gjithë përforcuesit e tjerë.",
-		productImage: ["/Images/boost/boost1L.png", "/Images/boost/boost5L.png", "/Images/boost/boost10L.png"],
+			"Canna Boost rrit marrjen e lëndëve ushqyese duke nxitur metabolizmin e bimëve tuaja. Fokusi në metabolizëm e bën Canna Boost shumë më efikas se të gjithë përforcuesit e tjerë. Është zhvilluar posaçërisht për bimët me cikël të shkurtër.",
+		productImage: [
+			"/Images/boost/boost1L.png",
+			"/Images/boost/boost5L.png",
+			"/Images/boost/boost10L.png",
+			"/Images/boost/boostf.png",
+		],
 		productBestseller: true,
 		productSizes: [1, 5, 10],
 		productPrices: [80, 350, 640],
