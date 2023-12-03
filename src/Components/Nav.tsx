@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { Context } from "../Context/Context";
 import { Link } from "react-router-dom";
-import logo from "../../Images/logo.png";
 import { motion } from "framer-motion";
+import logo from "../../Images/logo.png";
 
 const Nav = () => {
 	const { language, changeLanguage, isMenuActive, handleMenuClick } = useContext(Context);
@@ -77,30 +77,40 @@ const Nav = () => {
 				transition={{ duration: 0.3, delay: 0.2 }}
 			>
 				<div className="flex justify-evenly items-center flex-col bg-white shadow-md py-2 w-full h-full">
-					<Link to="/" className="font-poppins font-medium text-primary hover:text-secondary transition-colors mb-1">
+					<Link
+						to="/"
+						className="font-poppins font-medium text-primary hover:text-secondary transition-colors mb-1"
+						onClick={handleMenuClick}
+					>
 						{language === "EN" ? "Home" : "Shtëpi"}
 					</Link>
 					<Link
 						to="/about"
 						className="font-poppins font-medium text-primary hover:text-secondary transition-colors mb-1"
+						onClick={handleMenuClick}
 					>
 						{language === "EN" ? "About" : "Rreth"}
 					</Link>
 					<Link
 						to="/products"
 						className="font-poppins font-medium text-primary hover:text-secondary transition-colors mb-1"
+						onClick={handleMenuClick}
 					>
 						{language === "EN" ? "Products" : "Produktet"}
 					</Link>
 					<Link
 						to="/contact"
 						className="font-poppins font-medium text-primary hover:text-secondary transition-colors mb-1"
+						onClick={handleMenuClick}
 					>
 						{language === "EN" ? "Contact" : "Kontakto"}
 					</Link>
 					<p
 						className="font-poppins font-light cursor-pointer text-primary hover:text-secondary transition-colors opacity-70"
-						onClick={changeLanguage}
+						onClick={() => {
+							changeLanguage();
+							handleMenuClick();
+						}}
 					>
 						{language}
 					</p>

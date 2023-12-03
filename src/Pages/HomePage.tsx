@@ -1,10 +1,10 @@
-import { Context } from "../Context/Context";
-import { useContext } from "react";
-
+import Hero from "../Components/Hero";
 const HomePage = () => {
-	const { language } = useContext(Context);
-
-	return <div>{language}</div>;
+	return (
+		<>
+			<Hero />
+		</>
+	);
 };
 
 export default HomePage;

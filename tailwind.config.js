@@ -10,6 +10,16 @@ export default {
 				primary: "#49544C",
 				secondary: "#61B278",
 			},
+			backgroundColor: {
+				green: "#5DB176",
+			},
+			height: {
+				"hero-section-md": "calc(100vh - 80px)",
+				"hero-section": "calc(100vh - 60px)",
+			},
+			boxShadow: {
+				"hero-image": "#61B278a7 0px 0px 46px 0px",
+			},
 		},
 	},
 	plugins: [],
