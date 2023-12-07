@@ -1,16 +1,19 @@
-import React, { createContext, useState } from "react";
-import { ContextType } from "../Models/Models";
+import React, { createContext, useEffect, useRef, useState } from "react";import { ContextType } from "../Models/Models";
 
 export const Context = createContext<ContextType>({
 	language: "EN",
 	changeLanguage: () => {},
 	isMenuActive: false,
 	handleMenuClick: () => {},
+	videoRef: React.createRef(),
+	handleVideoEnded: () => {},
 });
 
 const ContextProvider: React.FC<{ children: JSX.Element }> = ({ children }) => {
 	const [language, setLanguage] = useState<"EN" | "AL">("EN");
 	const [isMenuActive, setIsMenuActive] = useState<boolean>(false);
+
+	const videoRef = useRef<HTMLVideoElement>(null);
 
 	const changeLanguage = () => {
 		setLanguage((prevLanguage) => (prevLanguage === "EN" ? "AL" : "EN"));
@@ -20,11 +23,44 @@ const ContextProvider: React.FC<{ children: JSX.Element }> = ({ children }) => {
 		setIsMenuActive((prevIsMenuActive) => !prevIsMenuActive);
 	};
 
+	const handleVideoEnded = () => {
+		videoRef.current!.currentTime = 0;
+		videoRef.current!.play();
+	};
+
+	useEffect(() => {
+		const options: IntersectionObserverInit = {
+			root: null,
+			rootMargin: "0px",
+			threshold: 0,
+		};
+
+		const handleIntersection: IntersectionObserverCallback = (entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					videoRef.current!.play();
+				} else {
+					videoRef.current!.pause();
+				}
+			});
+		};
+
+		const observer = new IntersectionObserver(handleIntersection, options);
+
+		observer.observe(videoRef.current!);
+
+		return () => {
+			observer.disconnect();
+		};
+	}, []);
+
 	const contextValue: ContextType = {
 		language: language,
 		changeLanguage: changeLanguage,
 		isMenuActive: isMenuActive,
 		handleMenuClick: handleMenuClick,
+		videoRef: videoRef,
+		handleVideoEnded: handleVideoEnded,
 	};
 
 	return <Context.Provider value={contextValue}>{children}</Context.Provider>;

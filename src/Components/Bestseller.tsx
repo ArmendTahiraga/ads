@@ -21,7 +21,7 @@ const Bestseller: React.FC<BestsellerType> = ({
 					{language === "EN" ? productMiniDescriptionEN : productMiniDescriptionAL}
 				</p>
 			</div>
-			<div className="p-6 pt-0">
+			<div className="p-6 pt-0 text-center">
 				<Link
 					to="/products"
 					type="button"

@@ -1,9 +1,10 @@
-import { useContext } from "react";import { Context } from "../Context/Context";
+import { useContext } from "react";
+import { Context } from "../Context/Context";
 import { Link } from "react-router-dom";
-import image from "../../Images/boostBackground.png";
+import ad from "../../Videos/ad.mp4";
 
 const Hero = () => {
-	const { language } = useContext(Context);
+	const { language, videoRef, handleVideoEnded } = useContext(Context);
 
 	return (
 		<div className="h-screen flex justify-center items-center md:justify-between md:items-end flex-col md:flex-row w-4/5 mx-auto pt-[60px] md:pt-0">
@@ -25,11 +26,15 @@ const Hero = () => {
 				</Link>
 			</div>
 			<div className="md:h-hero-section-md flex justify-center items-center md:w-1/2">
-				<img
-					src={image}
-					alt=""
-					className="rounded-xl rounded-tr-3xl rounded-bl-[48px] md:rounded-tr-[112px]  shadow-hero-image max-h-[275px] md:max-h-none"
-				/>
+				<video
+					autoPlay
+					muted
+					className="rounded-3xl shadow-hero-image max-h-[275px] md:max-h-none"
+					ref={videoRef}
+					onEnded={handleVideoEnded}
+				>
+					<source src={ad} type="video/mp4" />
+				</video>
 			</div>
 		</div>
 	);

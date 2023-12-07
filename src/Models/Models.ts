@@ -3,6 +3,8 @@ export type ContextType = {
 	changeLanguage: () => void;
 	isMenuActive: boolean;
 	handleMenuClick: () => void;
+	videoRef: React.RefObject<HTMLVideoElement>;
+	handleVideoEnded: () => void;
 };
 
 export type ProductType = {

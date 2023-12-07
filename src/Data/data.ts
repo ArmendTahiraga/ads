@@ -1,4 +1,5 @@
-import { ProductType } from "../Models/Models";export const products: ProductType[] = [
+import { ProductType } from "../Models/Models";
+export const products: ProductType[] = [
 	{
 		productId: 1,
 		productName: "Canna Terra Vega",
@@ -83,10 +84,10 @@ import { ProductType } from "../Models/Models";export const products: ProductTyp
 		productMiniDescriptionEN: "Canna PK 13/14 is a mixture of top quality nutritional minerals that stimulate flowering.",
 		productMiniDescriptionAL:
 			"Canna PK 13/14 është një përzierje e mineraleve ushqyese të cilësisë së lartë që stimulojnë lulëzimin.",
-		productImage: ["/Images/pk/pk1L.png", "/Images/pk/pk5L.png"],
+		productImage: ["/Images/pk/pk1L.png", "/Images/pk/pk5L.png", "/Images/pk/pk10L.png"],
 		productBestseller: false,
-		productSizes: [1, 5],
-		productPrices: [20, 80],
+		productSizes: [1, 5, 10],
+		productPrices: [20, 80, 150],
 	},
 	{
 		productId: 7,
