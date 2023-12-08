@@ -1,4 +1,5 @@
-import { useContext } from "react";import { Context } from "../Context/Context";
+import { useContext } from "react";
+import { Context } from "../Context/Context";
 import { Link } from "react-router-dom";
 import logo from "../../Images/logo.png";
 import location from "../../Icons/location.png";
@@ -46,9 +47,14 @@ const Footer = () => {
 						<img src={instagram} alt="" className="inline-block me-2" />
 						canna.albania
 					</a>
-					<a href="" target="_blank" rel="noopener" className="mb-2">
+					<a
+						href="https://www.facebook.com/profile.php?id=61554161981612"
+						target="_blank"
+						rel="noopener"
+						className="mb-2"
+					>
 						<img src={facebook} alt="" className="inline-block me-2" />
-						facebook
+						Canna Albania
 					</a>
 				</div>
 			</div>
