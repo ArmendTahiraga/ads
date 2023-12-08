@@ -9,7 +9,7 @@ import facebook from "../../Icons/facebook.png";
 const Footer = () => {
 	const { language } = useContext(Context);
 	return (
-		<div className="bg-gray-50 shadow-lg min-h-[30vh] flex justify-between items-center flex-col md:flex-row font-poppins px-4 py-5">
+		<div className="bg-gray-50 shadow-2xl min-h-[30vh] flex justify-between items-center flex-col md:flex-row font-poppins px-4 py-5">
 			<div className="md:w-2/5 flex justify-center items-center flex-col mb-8 md:mb-0">
 				<img src={logo} alt="" className="max-h-24" />
 				<h1 className="font-medium text-xl">Canna - ADS Growshop</h1>
@@ -36,11 +36,11 @@ const Footer = () => {
 				<div className="flex items-start flex-col">
 					<p className="mb-2">
 						<img src={location} alt="" className="inline-block me-2" />
-						Location
+						Yzberish, Tirana, Albania
 					</p>
 					<p className="mb-2">
 						<img src={phone} alt="" className="inline-block me-2" />
-						number
+						+355 69 343 3714
 					</p>
 					<a href="https://www.instagram.com/canna.albania/" target="_blank" rel="noopener" className="mb-2">
 						<img src={instagram} alt="" className="inline-block me-2" />

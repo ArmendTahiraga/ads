@@ -1,16 +1,24 @@
-import { useContext } from "react";import { Context } from "../Context/Context";
+import { useContext } from "react";
+import { Context } from "../Context/Context";
+import { useTypewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 import ad from "../../Videos/ad.mp4";
 
 const Hero = () => {
 	const { language, videoRef, handleVideoEnded } = useContext(Context);
+	const [text] = useTypewriter({
+		words: language === "EN" ? ["healthier", "stronger", "faster"] : ["të shëndetshme", "të forta", "shpejt"],
+		loop: true,
+		delaySpeed: 3000,
+		typeSpeed: 120,
+	});
 
 	return (
 		<div className="h-screen flex justify-center items-center md:justify-between md:items-end flex-col md:flex-row w-[90%] mx-auto pt-[60px] md:pt-0">
 			<div className="flex justify-center items-center md:items-start flex-col md:w-5/12 md:h-hero-section-md mb-12 md:mb-0">
 				<h1 className="text-primary font-poppins font-bold text-3xl md:text-4xl leading-tight mb-2 text-center md:text-left">
-					{language === "EN" ? "Help your plants grow " : "Ndihmoni bimët tuaja të rriten më të "}
-					<span className="text-secondary">{language === "EN" ? "healthier." : "shëndetshme."}</span>
+					{language === "EN" ? "Help your plants grow " : "Ndihmoni bimët tuaja të rriten më "}
+					<span className="text-secondary">{text}.</span>
 				</h1>
 				<p className="hidden md:block text-primary font-poppins text-xs mb-8">
 					{language === "EN"

@@ -15,7 +15,7 @@ export default {
 				"hero-section": "calc(100vh - 60px)",
 			},
 			boxShadow: {
-				"hero-image": "#61B278a7 0px 0px 46px 0px",
+				"hero-image": "#00695Fa7 0px 0px 56px -10px",
 				"about-home": "#64646f4f 0px 0px 24px 0px",
 			},
 		},
