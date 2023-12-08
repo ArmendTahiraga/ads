@@ -7,9 +7,8 @@ export default {
 				poppins: ["Poppins", "sans-serif"],
 			},
 			colors: {
-				primary: "#49544C",
-				secondary: "#22c55e",
-				tertiary: "#00695F",
+				primary: "#2e3630",
+				secondary: "#00695F",
 			},
 			height: {
 				"hero-section-md": "calc(100vh - 80px)",
@@ -17,7 +16,7 @@ export default {
 			},
 			boxShadow: {
 				"hero-image": "#61B278a7 0px 0px 46px 0px",
-				"about-home": "#64646f4f 0px 7px 29px 0px;",
+				"about-home": "#64646f4f 0px 0px 24px 0px",
 			},
 		},
 	},

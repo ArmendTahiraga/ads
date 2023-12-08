@@ -9,7 +9,7 @@ const Nav = () => {
 
 	return (
 		<nav className="absolute z-10 w-full">
-			<div className="flex justify-between items-center w-4/5 mx-auto">
+			<div className="flex justify-between items-center w-[90%] mx-auto">
 				<Link to="/">
 					<img src={logo} alt="" className="h-14 md:h-20" />
 				</Link>
@@ -35,9 +35,9 @@ const Nav = () => {
 						</Link>
 						<Link
 							to="/contact"
-							className="me-11 font-poppins font-medium text-primary hover:text-secondary transition-colors"
+							className="me-11 font-poppins font-medium transition-all bg-secondary text-gray-100 px-6 py-2 rounded-lg border-[#00595F] border-b-[4px] hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:translate-y-[2px]"
 						>
-							{language === "EN" ? "Contact" : "Kontakto"}
+							{language === "EN" ? "Contact us" : "Na kontaktoni"}
 						</Link>
 						<p
 							className="font-poppins font-light cursor-pointer text-primary hover:text-secondary transition-colors opacity-70"
@@ -100,7 +100,7 @@ const Nav = () => {
 					</Link>
 					<Link
 						to="/contact"
-						className="font-poppins font-medium text-primary hover:text-secondary transition-colors mb-1"
+						className="font-poppins font-medium transition-all bg-secondary text-gray-100 px-6 py-2 rounded-lg border-[#00595F] border-b-[4px] hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:translate-y-[2px] mb-1"
 						onClick={handleMenuClick}
 					>
 						{language === "EN" ? "Contact" : "Kontakto"}

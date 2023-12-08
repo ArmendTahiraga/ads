@@ -1,5 +1,4 @@
-import { useContext } from "react";
-import { Context } from "../Context/Context";
+import { useContext } from "react";import { Context } from "../Context/Context";
 import { Link } from "react-router-dom";
 import ad from "../../Videos/ad.mp4";
 
@@ -7,8 +6,8 @@ const Hero = () => {
 	const { language, videoRef, handleVideoEnded } = useContext(Context);
 
 	return (
-		<div className="h-screen flex justify-center items-center md:justify-between md:items-end flex-col md:flex-row w-4/5 mx-auto pt-[60px] md:pt-0">
-			<div className="flex justify-center items-center md:items-start flex-col md:w-5/12 md:h-hero-section-md mb-6 md:mb-0">
+		<div className="h-screen flex justify-center items-center md:justify-between md:items-end flex-col md:flex-row w-[90%] mx-auto pt-[60px] md:pt-0">
+			<div className="flex justify-center items-center md:items-start flex-col md:w-5/12 md:h-hero-section-md mb-12 md:mb-0">
 				<h1 className="text-primary font-poppins font-bold text-3xl md:text-4xl leading-tight mb-2 text-center md:text-left">
 					{language === "EN" ? "Help your plants grow " : "Ndihmoni bimët tuaja të rriten më të "}
 					<span className="text-secondary">{language === "EN" ? "healthier." : "shëndetshme."}</span>
@@ -20,7 +19,7 @@ const Hero = () => {
 				</p>
 				<Link
 					to="/products"
-					className="text-gray-100 bg-green-500 px-5 py-3 rounded-md font-medium font-poppins transition-shadow hover:shadow-xl"
+					className="font-medium font-poppins text-sm transition-all bg-secondary text-gray-100 px-6 py-3 rounded-lg border-[#00595F] border-b-[4px] hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:translate-y-[2px]"
 				>
 					{language === "EN" ? "View products" : "Shiko produktet"}
 				</Link>
