@@ -4,11 +4,11 @@ import Footer from "./Components/Footer";
 
 const App = () => {
 	return (
-		<>
+		<div className="bg-gradient-to-b from-[#bbf8c68a] to-[#daeadd]">
 			<Nav />
 			<Outlet />
 			<Footer />
-		</>
+		</div>
 	);
 };
 

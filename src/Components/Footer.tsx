@@ -10,7 +10,7 @@ import facebook from "../../Icons/facebook.png";
 const Footer = () => {
 	const { language } = useContext(Context);
 	return (
-		<div className="bg-gray-50 shadow-2xl min-h-[30vh] flex justify-between items-center flex-col md:flex-row font-poppins px-4 py-5">
+		<div className="bg-footer border border-footer backdrop-blur shadow-footer min-h-[30vh] flex justify-between items-center flex-col md:flex-row font-poppins px-4 py-5">
 			<div className="md:w-2/5 flex justify-center items-center flex-col mb-8 md:mb-0">
 				<img src={logo} alt="" className="max-h-24" />
 				<h1 className="font-medium text-xl">Canna - ADS Growshop</h1>
