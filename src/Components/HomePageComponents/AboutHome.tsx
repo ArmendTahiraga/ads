@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { Context } from "../Context/Context";
-import background from "../../Images/aboutHome.svg";
+import { Context } from "../../Context/Context";
+import background from "../../../Images/aboutHome.svg";
 
 const AboutHome = () => {
 	const { language } = useContext(Context);

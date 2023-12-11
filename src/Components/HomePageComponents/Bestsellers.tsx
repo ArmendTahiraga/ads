@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { Context } from "../Context/Context";
-import { products } from "../Data/data";
+import { Context } from "../../Context/Context";
+import { products } from "../../Data/data";
 import Bestseller from "./Bestseller";
 
 const Bestsellers = () => {

@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { Context } from "../Context/Context";
 import { useTypewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
-import ad from "../../Videos/ad.mp4";
+import { Context } from "../../Context/Context";
+import ad from "../../../Videos/ad.mp4";
 
 const Hero = () => {
 	const { language, videoRef, handleVideoEnded } = useContext(Context);

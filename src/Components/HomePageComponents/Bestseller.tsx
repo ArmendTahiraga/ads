@@ -1,5 +1,6 @@
-import { useContext } from "react";import { Context } from "../Context/Context";
-import { BestsellerType } from "../Models/Models";
+import { useContext } from "react";
+import { Context } from "../../Context/Context";
+import { BestsellerType } from "../../Models/Models";
 import { Link } from "react-router-dom";
 
 const Bestseller: React.FC<BestsellerType> = ({

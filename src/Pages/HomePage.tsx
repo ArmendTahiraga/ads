@@ -1,6 +1,6 @@
-import Hero from "../Components/Hero";
-import Bestsellers from "../Components/Bestsellers";
-import AboutHome from "../Components/AboutHome";
+import Hero from "../Components/HomePageComponents/Hero";
+import Bestsellers from "../Components/HomePageComponents/Bestsellers";
+import AboutHome from "../Components/HomePageComponents/AboutHome";
 
 const HomePage = () => {
 	return (
