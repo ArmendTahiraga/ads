@@ -25,7 +25,7 @@ const Nav = () => {
 							to="/about"
 							className="me-11 font-poppins font-medium text-primary hover:text-secondary transition-colors"
 						>
-							{language === "EN" ? "About" : "Rreth"}
+							{language === "EN" ? "About us" : "Rreth nesh"}
 						</Link>
 						<Link
 							to="/products"

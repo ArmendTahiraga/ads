@@ -22,7 +22,7 @@ const Footer = () => {
 						{language === "EN" ? "Home" : "Shtëpi"}
 					</Link>
 					<Link to="/about" className="font-medium text-primary hover:text-secondary transition-colors mb-2">
-						{language === "EN" ? "About" : "Rreth"}
+						{language === "EN" ? "About us" : "Rreth nesh"}
 					</Link>
 					<Link to="/products" className="font-medium text-primary hover:text-secondary transition-colors mb-2">
 						{language === "EN" ? "Products" : "Produktet"}

@@ -11,8 +11,11 @@ export default {
 				footer: "#ffffff2f",
 			},
 			height: {
-				"hero-section-md": "calc(100vh - 80px)",
-				"hero-section": "calc(100vh - 60px)",
+				"full-section-md": "calc(100vh - 80px)",
+				"full-section": "calc(100vh - 60px)",
+			},
+			backgroundImage: {
+				"about-us": "url(./Images/aboutUs.jpg)",
 			},
 			boxShadow: {
 				"hero-image": "#00695Fa1 0px 0px 56px -10px",

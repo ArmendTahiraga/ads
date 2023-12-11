@@ -15,7 +15,7 @@ const Hero = () => {
 
 	return (
 		<div className="h-screen flex justify-center items-center md:justify-between md:items-end flex-col md:flex-row w-[90%] mx-auto pt-[60px] md:pt-0">
-			<div className="flex justify-center items-center md:items-start flex-col md:w-5/12 md:h-hero-section-md mb-12 md:mb-0">
+			<div className="flex justify-center items-center md:items-start flex-col md:w-5/12 md:h-full-section-md mb-12 md:mb-0">
 				<h1 className="text-primary font-poppins font-bold text-3xl md:text-4xl leading-tight mb-2 text-center md:text-left">
 					{language === "EN" ? "Help your plants grow " : "Ndihmoni bimët tuaja të rriten më "}
 					<span className="text-secondary">{text}.</span>
@@ -32,7 +32,7 @@ const Hero = () => {
 					{language === "EN" ? "View products" : "Shiko produktet"}
 				</Link>
 			</div>
-			<div className="md:h-hero-section-md flex justify-center items-center md:w-1/2">
+			<div className="md:h-full-section-md flex justify-center items-center md:w-1/2">
 				<video
 					autoPlay
 					muted
