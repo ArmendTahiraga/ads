@@ -18,7 +18,7 @@ const Bestsellers = () => {
 						productName,
 						productMiniDescriptionEN,
 						productMiniDescriptionAL,
-						productImage,
+						productImages,
 						productBestseller,
 					}) => {
 						if (productBestseller) {
@@ -28,7 +28,7 @@ const Bestsellers = () => {
 									productName={productName}
 									productMiniDescriptionEN={productMiniDescriptionEN}
 									productMiniDescriptionAL={productMiniDescriptionAL}
-									productImage={productImage}
+									productImages={productImages}
 								/>
 							);
 						}

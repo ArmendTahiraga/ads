@@ -12,7 +12,7 @@ export type ProductType = {
 	productName: string;
 	productMiniDescriptionEN: string;
 	productMiniDescriptionAL: string;
-	productImage: string[];
+	productImages: string[];
 	productBestseller: boolean;
 	productSizes: number[];
 	productPrices: number[];
@@ -22,5 +22,15 @@ export type BestsellerType = {
 	productName: string;
 	productMiniDescriptionEN: string;
 	productMiniDescriptionAL: string;
-	productImage: string[];
+	productImages: string[];
+};
+
+export type ProductCardType = {
+	productId: number;
+	productName: string;
+	productMiniDescriptionEN: string;
+	productMiniDescriptionAL: string;
+	productImages: string[];
+	productSizes: number[];
+	productPrices: number[];
 };
