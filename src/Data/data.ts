@@ -40,7 +40,7 @@ export const products: ProductType[] = [
 			"Canna Coco A & B is a complete professional nutrient for growing plants in coco. It contains all the essential elements for optimal growing and flowering.",
 		productMiniDescriptionAL:
 			"Canna Coco A & B është një lëndë ushqyese e plotë profesionale për rritjen e bimëve me kokos. Ai përmban të gjithë elementët thelbësorë për rritjen dhe lulëzimin optimal.",
-		productImages: ["/Images/cocoAB/coco1L.png", "/Images/cocoAB/coco5L.jpg", "/Images/cocoAB/coco10L.jpg"],
+		productImages: ["/Images/cocoAB/coco1L.png", "/Images/cocoAB/coco5L.png", "/Images/cocoAB/coco10L.png"],
 		productBestseller: false,
 		productSizes: [1, 5, 10],
 		productPrices: [20, 80, 110],
@@ -125,7 +125,7 @@ export const products: ProductType[] = [
 			"Canna Flush is an additive that effectively cleans substrates and plants from any excess nutrients. This is necessary, because excess nutrients can have a bad influence on your next growth cycle.",
 		productMiniDescriptionAL:
 			"Canna Flush është një aditiv që pastron në mënyrë efektive substratet dhe bimët nga çdo lëndë ushqyese e tepërt. Kjo është e nevojshme, sepse lëndët ushqyese të tepërta mund të kenë një ndikim të keq në ciklin tuaj të ardhshëm të rritjes.",
-		productImages: ["/Images/flush/flush1L.jpeg"],
+		productImages: ["/Images/flush/flush1L.png"],
 		productBestseller: false,
 		productSizes: [1],
 		productPrices: [15],
