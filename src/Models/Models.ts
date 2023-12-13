@@ -8,7 +8,7 @@ export type ContextType = {
 };
 
 export type ProductType = {
-	productId: number;
+	productId: string;
 	productName: string;
 	productMiniDescriptionEN: string;
 	productMiniDescriptionAL: string;
@@ -26,7 +26,7 @@ export type BestsellerType = {
 };
 
 export type ProductCardType = {
-	productId: number;
+	productId: string;
 	productName: string;
 	productMiniDescriptionEN: string;
 	productMiniDescriptionAL: string;

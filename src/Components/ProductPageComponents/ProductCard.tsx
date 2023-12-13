@@ -4,6 +4,7 @@ import { ProductCardType } from "../../Models/Models";
 import { Link } from "react-router-dom";
 
 const ProductCard: React.FC<ProductCardType> = ({
+	productId,
 	productName,
 	productMiniDescriptionEN,
 	productMiniDescriptionAL,
@@ -50,7 +51,7 @@ const ProductCard: React.FC<ProductCardType> = ({
 				</div>
 			</div>
 			<Link
-				to="/products"
+				to={`/products/${productId}`}
 				type="button"
 				className="bg-secondary w-full rounded-b-xl text-gray-100 font-medium text-lg py-2 text-center font-poppins mt-8"
 			>

@@ -1,7 +1,7 @@
 import { ProductType } from "../Models/Models";
 export const products: ProductType[] = [
 	{
-		productId: 1,
+		productId: "terra-vega",
 		productName: "Canna Terra Vega",
 		productMiniDescriptionEN:
 			"Canna Terra Vega is a complete professional nutrient for the growing phase of plants. It is specially developed for growing in pots and potting mix.",
@@ -17,7 +17,7 @@ export const products: ProductType[] = [
 		productPrices: [18, 70, 100],
 	},
 	{
-		productId: 2,
+		productId: "terra-flores",
 		productName: "Canna Terra Flores",
 		productMiniDescriptionEN:
 			"Canna Terra Flores is a complete professional nutrient for the flowering phase of plants. It is specially developed for growing in pots and potting mix. Terra Flores stimulates the fruition and provides every plant with its characteristic flavour.",
@@ -34,7 +34,7 @@ export const products: ProductType[] = [
 		productPrices: [18, 70, 100],
 	},
 	{
-		productId: 3,
+		productId: "coco-a&b",
 		productName: "Canna Coco A & B",
 		productMiniDescriptionEN:
 			"Canna Coco A & B is a complete professional nutrient for growing plants in coco. It contains all the essential elements for optimal growing and flowering.",
@@ -46,7 +46,7 @@ export const products: ProductType[] = [
 		productPrices: [20, 80, 110],
 	},
 	{
-		productId: 4,
+		productId: "rhizotonic",
 		productName: "Canna Rhizotonic",
 		productMiniDescriptionEN:
 			"Canna Rhizotonic is a powerful root stimulator. It is ideal for plants that already have roots or root initials. White and powerful roots form quicker if you add Canna Rhizotonic to your tap water.",
@@ -62,7 +62,7 @@ export const products: ProductType[] = [
 		productPrices: [50, 180, 340],
 	},
 	{
-		productId: 5,
+		productId: "cannazym",
 		productName: "Cannazym",
 		productMiniDescriptionEN:
 			"Cannazym is a high-quality enzyme product that helps breaking down dead root material and turning it into nutrients for the plant. It also encourages beneficial micro-organisms, helps plants take up nutrients and increases the resistance against diseases.",
@@ -79,7 +79,7 @@ export const products: ProductType[] = [
 		productPrices: [25, 110, 200],
 	},
 	{
-		productId: 6,
+		productId: "pk-13/14",
 		productName: "Canna PK 13/14",
 		productMiniDescriptionEN: "Canna PK 13/14 is a mixture of top quality nutritional minerals that stimulate flowering.",
 		productMiniDescriptionAL:
@@ -90,7 +90,7 @@ export const products: ProductType[] = [
 		productPrices: [20, 80, 150],
 	},
 	{
-		productId: 7,
+		productId: "boost",
 		productName: "Canna Boost",
 		productMiniDescriptionEN:
 			"Canna Boost increases the uptake of nutrients by boosting the metabolism of your plants. The focus on metabolism makes Canna Boost much more efficient than all the other boosters out there. It is specially developed for short cycle plant varieties.",
@@ -107,7 +107,7 @@ export const products: ProductType[] = [
 		productPrices: [80, 350, 640],
 	},
 	{
-		productId: 8,
+		productId: "cure",
 		productName: "Canna Cure",
 		productMiniDescriptionEN:
 			"Canna Cure is an unique leaf nutrient that prevents and controls plant pests and mildew. It's free of toxins and environmentally friendly. Canna Cure ensures healthier plants, bigger flowers and increased yields.",
@@ -119,7 +119,7 @@ export const products: ProductType[] = [
 		productPrices: [25],
 	},
 	{
-		productId: 9,
+		productId: "flush",
 		productName: "Canna Flush",
 		productMiniDescriptionEN:
 			"Canna Flush is an additive that effectively cleans substrates and plants from any excess nutrients. This is necessary, because excess nutrients can have a bad influence on your next growth cycle.",
@@ -131,7 +131,7 @@ export const products: ProductType[] = [
 		productPrices: [15],
 	},
 	{
-		productId: 10,
+		productId: "calmag",
 		productName: "Canna CalMag",
 		productMiniDescriptionEN:
 			"To ensure an optimal mineral balance regardless of your quality of water, Canna CalMag provides a highly concentrated solution of calcium and magnesium, at the ideal ratio, for exceptional plant growth.",
@@ -143,7 +143,7 @@ export const products: ProductType[] = [
 		productPrices: [20, 55],
 	},
 	{
-		productId: 11,
+		productId: "terra-prof",
 		productName: "Canna Terra Professional",
 		productMiniDescriptionEN:
 			"Canna Terra Professional is a nitrogen-rich potting mix for plant cultivation. It contains a blend of upgraded black peat, granulated peat moss and perlite.",
@@ -155,7 +155,7 @@ export const products: ProductType[] = [
 		productPrices: [17],
 	},
 	{
-		productId: 12,
+		productId: "terra-prof-plus",
 		productName: "Canna Terra Professional Plus",
 		productMiniDescriptionEN:
 			"Canna Terra Professional Plus is the purest potting mix possible for plant cultivation. It also gives the best effects with Canna Terra nutrients. The formulation is specifically developed for indoor, grow-room situations.",
@@ -167,7 +167,7 @@ export const products: ProductType[] = [
 		productPrices: [27],
 	},
 	{
-		productId: 13,
+		productId: "coco-prof-plus",
 		productName: "Canna Coco Professional Plus",
 		productMiniDescriptionEN:
 			"Canna Coco Professional Plus is a coco-based growing medium that offers the gardener and his plants many advantages.",
@@ -179,7 +179,7 @@ export const products: ProductType[] = [
 		productPrices: [22],
 	},
 	{
-		productId: 14,
+		productId: "coco-natural",
 		productName: "Canna Coco Natural",
 		productMiniDescriptionEN:
 			"Canna Coco Natural is a natural coco-based plant medium that offers the gardener and his plants advantages in comparison with other substrates. It's an organic product that is free of diseases.",
