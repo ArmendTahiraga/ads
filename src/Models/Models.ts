@@ -10,12 +10,19 @@ export type ContextType = {
 export type ProductType = {
 	productId: string;
 	productName: string;
+	productDescriptionEN: string;
+	productDescriptionAL: string;
 	productMiniDescriptionEN: string;
 	productMiniDescriptionAL: string;
+	productAdvantagesEN: string[];
+	productAdvantagesAL: string[];
+	productInstructionsEN: string[] | string;
+	productInstructionsAL: string[] | string;
 	productImages: string[];
 	productBestseller: boolean;
 	productSizes: number[];
 	productPrices: number[];
+	productVideo: string;
 };
 
 export type BestsellerType = {
