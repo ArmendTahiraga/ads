@@ -16,8 +16,8 @@ export type ProductType = {
 	productMiniDescriptionAL: string;
 	productAdvantagesEN: string[];
 	productAdvantagesAL: string[];
-	productInstructionsEN: string[] | string;
-	productInstructionsAL: string[] | string;
+	productInstructionsEN: string[][] | string[] | string;
+	productInstructionsAL: string[][] | string[] | string;
 	productImages: string[];
 	productBestseller: boolean;
 	productSizes: number[];

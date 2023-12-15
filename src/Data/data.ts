@@ -226,8 +226,10 @@ export const products: ProductType[] = [
 	{
 		productId: "cure",
 		productName: "Canna Cure",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN:
+			"Canna Cure is an unique leaf nutrient that prevents and controls plant pests and mildew. It's environmentally friendly and free of toxins. It ensures healthier plants, bigger flowers and increased yields. <br> When you spray Canna Cure, it forms a second natural 'skin' on your plants. This layer improves leaf colour and vigour and while ensuring that the plants can still breathe and it makes them healthy, shiny and clean, enabling optimal photosynthesis. This gives the plants the chance to focus on flowering. <br> Also, any plant pests will get stuck to the sticky layer, so they won't have the chance to damage the leaves. Eventually, the pests will starve to death. <br> For proper use it is very important that Canna Cure is applied thoroughly on both sides of the leaves. Use Canna Cure once a week as a preventive measure, to make sure that plant pests cannot attack the leaves. If you have a heavy infestation of mildew or whitefly, for example, spray every three days and repeat, if necessary, after a further three days. Then continue spraying weekly as normal. This products can be used from the beginning of growth until harvesting, alongside your normal feeding routine.",
+		productDescriptionAL:
+			"Canna Cure është një lëndë ushqyese unike e gjetheve që parandalon dhe kontrollon dëmtuesit e bimëve dhe mykun. Është miqësore me mjedisin dhe pa toksina. Siguron bimë më të shëndetshme, lule më të mëdha dhe rritje të rendimentit. <br> Kur spërkatni Canna Cure, ajo formon një 'lëkurë' të dytë natyrale në bimët tuaja. Kjo shtresë përmirëson ngjyrën dhe energjinë e gjetheve dhe duke siguruar që bimët ende të marrin frymë gjithashtu i bën ato të shëndetshme, me shkëlqim dhe të pastër, duke mundësuar fotosintezën optimale. Kjo u jep bimëve mundësinë për t'u përqëndruar në lulëzimin. <br> Gjithashtu, çdo dëmtues i bimëve do të mbërthehet në shtresën ngjitëse, kështu që ata nuk do të kenë mundësinë të dëmtojnë gjethet. Pastaj, ato do të vdesin nga uria. <br> Për përdorim të duhur, është shumë e rëndësishme që Canna Cure të aplikohet tërësisht në të dy anët e gjetheve. Përdorni Canna Cure një herë në javë si masë parandaluese, për t'u siguruar që dëmtuesit e bimëve nuk mund të sulmojnë gjethet. Nëse keni një infektim të rëndë të mykut ose mizës së bardhë, për shembull, spërkateni çdo tre ditë dhe përsërisni, nëse është e nevojshme, pas tre ditësh të tjera. Më pas vazhdoni spërkatjen çdo javë si zakonisht. Ky produkt mund të përdoret që nga fillimi i rritjes deri në korrje, krahas rutinës suaj normale të të ushqyerit.",
 		productMiniDescriptionEN:
 			"Canna Cure is an unique leaf nutrient that prevents and controls plant pests and mildew. It's free of toxins and environmentally friendly. Canna Cure ensures healthier plants, bigger flowers and increased yields.",
 		productMiniDescriptionAL:
@@ -245,16 +247,52 @@ export const products: ProductType[] = [
 	{
 		productId: "flush",
 		productName: "Canna Flush",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN:
+			"Canna Flush is a product to clean substrates and plants from any excess nutrients. This is necessary, because excess nutrients can have a bad influence your next growth cycle. They could lead to over-fertilisation or malnutrition, for example.",
+		productDescriptionAL:
+			"Canna Flush është një produkt për të pastruar nënshtresat dhe bimët nga çdo lëndë ushqyese e tepërt. Kjo është e nevojshme, sepse lëndët ushqyese të tepërta mund të kenë një ndikim të keq në ciklin tuaj të ardhshëm të rritjes. Ato mund të çojnë në mbiferkondim ose kequshqyerje, për shembull.",
 		productMiniDescriptionEN:
 			"Canna Flush is an additive that effectively cleans substrates and plants from any excess nutrients. This is necessary, because excess nutrients can have a bad influence on your next growth cycle.",
 		productMiniDescriptionAL:
 			"Canna Flush është një aditiv që pastron në mënyrë efektive substratet dhe bimët nga çdo lëndë ushqyese e tepërt. Kjo është e nevojshme, sepse lëndët ushqyese të tepërta mund të kenë një ndikim të keq në ciklin tuaj të ardhshëm të rritjes.",
-		productAdvantagesEN: [],
-		productAdvantagesAL: [],
-		productInstructionsEN: [],
-		productInstructionsAL: [],
+		productAdvantagesEN: [
+			"When used just before harvest it makes sure the plant gets rid of all excess, which will lead to a clean and tasteful harvest",
+			"Canna Flush effectively cleans the substrate without killing any useful bacteria or beneﬁcial fungi, as can be the case when you use reverse osmosis or demineralised water",
+			"It can be used on all substrates",
+		],
+		productAdvantagesAL: [
+			"Kur përdoret pak para vjeljes, sigurohet që bima të heqë qafe të gjitha tepricat, gjë që do të çojë në një korrje të pastër dhe me shije",
+			"Canna Flush pastron në mënyrë efektive nënshtresën pa vrarë asnjë bakter të dobishëm ose kërpudha të dobishme, siç mund të ndodhë kur përdorni osmozë të kundërt ose ujë të demineralizuar",
+			"Mund të përdoret në të gjitha nënshtresat",
+		],
+		productInstructionsEN: [
+			[
+				"Mixes with or without soil:",
+				"Dilute 20 ml concentrate per 10 litre of water (1:500) until you have drain",
+				"Water plants once with plain tap water according to normal watering frequency until you have drain",
+				"Resume normal feeding schedule",
+			],
+			[
+				"Hydroponics (open systems):",
+				"Administer the diluted Flush (40ml per 10 litre water, which is 1:250) the last feed of the day until there is 10-20% drain",
+				"Water plants once with plain tap water until you have drain",
+				"Start administering according to normal feeding schedule (with 10-20% drain) the following day",
+			],
+		],
+		productInstructionsAL: [
+			[
+				"Përzierjet me ose pa dhe':",
+				"Holloni 20 ml koncentrat për 10 litër ujë (1:500) derisa të kulloni",
+				"Ujitni bimët një herë me ujë të thjeshtë çezme sipas frekuencës normale të ujitjes derisa të keni kullim",
+				"Rifilloni shqyerien normale",
+			],
+			[
+				"Hidroponika (sistemet e hapura):",
+				"Administroni Flush-in e holluar (40 ml për 10 litra ujë, që është 1:250) ushqimin e fundit të ditës derisa të ketë kullim 10-20%",
+				"Ujitni bimët një herë me ujë të thjeshtë çezme derisa të keni kullim",
+				"Filloni administrimin sipas orarit normal të ushqyerjes (me 10-20% kullim) ditën tjetër",
+			],
+		],
 		productImages: ["/Images/flush/flush1L.png"],
 		productBestseller: false,
 		productSizes: [1],
@@ -264,14 +302,30 @@ export const products: ProductType[] = [
 	{
 		productId: "calmag",
 		productName: "Canna CalMag",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN:
+			"To ensure an optimal mineral balance regardless of your quality of water, Canna CalMag provides a highly concentrated solution of calcium and magnesium, at the ideal ratio, for exceptional plant growth. Perfect for correcting water sources of varying hardnesses, CalMag ensures consistantly strong and healthy plant growth.",
+		productDescriptionAL:
+			"Për të siguruar një ekuilibër optimal të mineraleve, pavarësisht nga cilësia e ujit, Canna CalMag ofron një solucion të koncentruar shumë me kalcium dhe magnez, në raportin ideal, për rritje të jashtëzakonshme të bimëve. E përkryer për korrigjimin e burimeve të ujit me fortësi të ndryshme, CalMag siguron rritje të qëndrueshme dhe të shëndetshme të bimëve.",
 		productMiniDescriptionEN:
 			"To ensure an optimal mineral balance regardless of your quality of water, Canna CalMag provides a highly concentrated solution of calcium and magnesium, at the ideal ratio, for exceptional plant growth.",
 		productMiniDescriptionAL:
 			"Për të siguruar një ekuilibër optimal të mineraleve, pavarësisht nga cilësia e ujit, Canna CalMag ofron një solucion të koncentruar shumë me kalcium dhe magnez, në raportin ideal, për rritje të jashtëzakonshme të bimëve.",
-		productAdvantagesEN: [],
-		productAdvantagesAL: [],
+		productAdvantagesEN: [
+			"Ideal 3:1 calcium to magnesium ratio",
+			"Highly concentrated",
+			"Improves poor-quality water",
+			"Improves nutrient uptake",
+			"Stronger and healthier plants",
+			"Reduces susceptibility to diseases",
+		],
+		productAdvantagesAL: [
+			"Raporti ideal 3:1 kalcium-magnez",
+			"Shumë e përqendruar",
+			"Përmirëson ujin me cilësi të dobët",
+			"Përmirëson marrjen e lëndëve ushqyese",
+			"Bimë më të forta dhe më të shëndetshme",
+			"Redukton ndjeshmërinë ndaj sëmundjeve",
+		],
 		productInstructionsEN: [],
 		productInstructionsAL: [],
 		productImages: ["/Images/calMag/calMag1L.png", "/Images/calMag/calMag5L.png"],
@@ -283,16 +337,28 @@ export const products: ProductType[] = [
 	{
 		productId: "terra-prof",
 		productName: "Canna Terra Professional",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN:
+			"Canna Terra Professional is a nitrogen-rich potting mix for plant cultivation. It contains a blend of upgraded black peat, granulated peat moss and perlite. If you are going to grow indoors or outdoors, this is the potting mix you should use.",
+		productDescriptionAL:
+			"Canna Terra Professional është një përzierje vazosh e pasur me azot për kultivimin e bimëve. Ai përmban një përzierje torfe të zezë të përmirësuar, myshk torfe të grimcuar dhe perlit. Nëse do të rriteni brenda ose jashtë, kjo është përzierja e vazove që duhet të përdorni.",
 		productMiniDescriptionEN:
 			"Canna Terra Professional is a nitrogen-rich potting mix for plant cultivation. It contains a blend of upgraded black peat, granulated peat moss and perlite.",
 		productMiniDescriptionAL:
 			"Canna Terra Professional është një përzierje vazosh e pasur me azot për kultivimin e bimëve. Ai përmban një përzierje torfe të zezë të përmirësuar, myshk torfe të grimcuar dhe perlit.",
-		productAdvantagesEN: [],
-		productAdvantagesAL: [],
-		productInstructionsEN: [],
-		productInstructionsAL: [],
+		productAdvantagesEN: [
+			"Exclusive, high value organic ingredients such as airy peat moss free from diseases",
+			"These ingredients also promote exceptional root development and the formation of thicker stems",
+			"Faster metabolism combined with low sickness rates ensure an increased production",
+		],
+		productAdvantagesAL: [
+			"Përbërës organikë ekskluzivë, me vlerë të lartë si myshk i ajrosur pa sëmundje",
+			"Këta përbërës gjithashtu nxisin zhvillimin e jashtëzakonshëm të rrënjëve dhe formimin e kërcellit më të trashë",
+			"Metabolizmi më i shpejtë i kombinuar me shkallë të ulët të sëmundjes sigurojnë një rritje të prodhimit",
+		],
+		productInstructionsEN:
+			"Loosen the Canna Terra Professional and fill the pots, compressing the soil slightly. Add water until a little begins to drain through and then place the plant in the Canna Terra Professional. <br> And for watering, depending on the size of the pot, growing conditions and the plant's growth stage, adjust the amount of water given to the needs of the plant in question. Under normal conditions, adult plants evaporate 4-6 litres of moisture a day, per m2. For larger plants, use 5 litre pots or larger. The larger the pot, the more constant the root environment will be. If you use run-to-waste, make sure that there's sufficient drainage; you may want to place a thin layer of hydro-granules in the bottom of the pot for air and drainage.",
+		productInstructionsAL:
+			"Lironi Canna Terra Professional dhe mbushni vazot, duke e ngjeshur pak dheun. Shtoni ujë derisa pak të fillojë të kullojë dhe më pas vendoseni bimën në Canna Terra Professional. <br> Dhe për ujitje, në varësi të madhësisë së vazos, kushteve të rritjes dhe fazës së rritjes së bimës, rregulloni sasinë e ujit të dhënë sipas nevojave të bimës në fjalë. Në kushte normale, bimët e rritura avullojnë 4-6 litra lagështi në ditë, për m2. Për bimë më të mëdha, përdorni enë 5 litra ose më të mëdha. Sa më e madhe të jetë ajo, aq më konstant do të jetë mjedisi rrënjësor. Nëse përdorni mbeturina, sigurohuni që të ketë kullim të mjaftueshëm; ju mund të dëshironi të vendosni një shtresë të hollë hidrogranulash në fund të vazos për ajër dhe kullim.",
 		productImages: ["/Images/terraProf/terraProf50L.png"],
 		productBestseller: false,
 		productSizes: [50],
@@ -302,16 +368,30 @@ export const products: ProductType[] = [
 	{
 		productId: "terra-prof-plus",
 		productName: "Canna Terra Professional Plus",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN:
+			"Canna Terra Professional Plus is the purest potting mix possible for plant cultivation. The formulation is specifically developed for indoor, grow-room situations. Of course, it also gives good results outside.",
+		productDescriptionAL:
+			"Canna Terra Professional Plus është përzierja më e pastër e mundshme e vazove për kultivimin e bimëve. Formulimi është zhvilluar posaçërisht për situata të brendshme, të dhomave të rritjes. Sigurisht që jep rezultate të mira edhe jashtë.",
 		productMiniDescriptionEN:
 			"Canna Terra Professional Plus is the purest potting mix possible for plant cultivation. It also gives the best effects with Canna Terra nutrients. The formulation is specifically developed for indoor, grow-room situations.",
 		productMiniDescriptionAL:
 			"Canna Terra Professional Plus është përzierja më e pastër e mundshme e vazove për kultivimin e bimëve. Gjithashtu jep efektet më të mira me lëndët ushqyese Canna Terra. Është zhvilluar posaçërisht për ambiente të brendshme, të dhomave të rritjes.",
-		productAdvantagesEN: [],
-		productAdvantagesAL: [],
-		productInstructionsEN: [],
-		productInstructionsAL: [],
+		productAdvantagesEN: [
+			"Canna Terra Professional Plus is composed of airy peat moss and types of tree bark. They promote exceptional root development and the formation of thicker stems.",
+			"Faster metabolism combined with low sickness rates ensure an increased production.",
+			"The special structure provides optimum amounts of air and water for the plant.",
+			"Canna Terra Professional Plus contains trace elements and chelates, which protect the plants during growth.",
+		],
+		productAdvantagesAL: [
+			"Canna Terra Professional Plus është i përbërë nga myshk i ajrosur torfe dhe lloje të lëvores së pemëve. Ato nxisin zhvillimin e jashtëzakonshëm të rrënjëve dhe formimin e kërcellit më të trashë.",
+			"Metabolizmi më i shpejtë i kombinuar me shkallë të ulët të sëmundjeve sigurojnë një rritje të prodhimit.",
+			"Struktura e veçantë siguron sasinë optimale të ajrit dhe ujit për bimën.",
+			"Canna Terra Professional Plus përmban elementë gjurmë dhe kelate, të cilat mbrojnë bimët gjatë rritjes.",
+		],
+		productInstructionsEN:
+			"Loosen the Canna Terra Professional and fill the pots, compressing the soil slightly. Add water until a little begins to drain through and then place the plant in the Canna Terra Professional. <br> And for watering, depending on the size of the pot, growing conditions and the plant's growth stage, adjust the amount of water given to the needs of the plant in question. Under normal conditions, adult plants evaporate 4-6 litres of moisture a day, per m2. For larger plants, use 5 litre pots or larger. The larger the pot, the more constant the root environment will be. Make sure that there's sufficient drainage; you may want to place a thin layer of hydro-granules in the bottom of the pot for air and drainage.",
+		productInstructionsAL:
+			"Lironi Canna Terra Professional dhe mbushni vazot, duke e ngjeshur pak dheun. Shtoni ujë derisa pak të fillojë të kullojë dhe më pas vendoseni bimën në Canna Terra Professional. <br> Dhe për ujitje, në varësi të madhësisë së vazos, kushteve të rritjes dhe fazës së rritjes së bimës, rregulloni sasinë e ujit të dhënë sipas nevojave të bimës në fjalë. Në kushte normale, bimët e rritura avullojnë 4-6 litra lagështi në ditë, për m2. Për bimë më të mëdha, përdorni enë 5 litra ose më të mëdha. Sa më e madhe të jetë ajo, aq më konstant do të jetë mjedisi rrënjësor. Sigurohuni që të ketë kullim të mjaftueshëm; ju mund të dëshironi të vendosni një shtresë të hollë hidrogranulash në fund të vazos për ajër dhe kullim.",
 		productImages: ["/Images/terraProfPlus/terraProfPlus50L.png"],
 		productBestseller: false,
 		productSizes: [50],
@@ -321,14 +401,24 @@ export const products: ProductType[] = [
 	{
 		productId: "coco-prof-plus",
 		productName: "Canna Coco Professional Plus",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN: "Canna Coco Professional Plus is a coco-based growing medium.",
+		productDescriptionAL: "Canna Coco Professional Plus është një dhe kultivues me bazë kokosi.",
 		productMiniDescriptionEN:
 			"Canna Coco Professional Plus is a coco-based growing medium that offers the gardener and his plants many advantages.",
 		productMiniDescriptionAL:
 			"Canna Coco Professional Plus është një dhe kultivues me bazë kokosi që i ofron kopshtarit dhe bimëve të tij shumë përparësi.",
-		productAdvantagesEN: [],
-		productAdvantagesAL: [],
+		productAdvantagesEN: [
+			"Canna Coco Professional Plus is a pure, organic product with a homogeneous structure and has had a full buffering, eliminating the side effects of growing on coir, as coir could consume some of the nutrients.",
+			"Canna Coco Professional Plus is free of harmful viruses and soil diseases.",
+			"Canna Coco Professional Plus has a complex water/air system that provides the ideal conditions for growing plants",
+			"Canna Coco Professional Plus can be used a number of times and imporves the potting mix even after use.",
+		],
+		productAdvantagesAL: [
+			"Canna Coco Professional Plus është një produkt i pastër, organik me një strukturë homogjene dhe ka pasur një puferim të plotë, duke eliminuar efektet anësore të rritjes në kokrra, pasi kokrra mund të konsumojë disa nga lëndët ushqyese.",
+			"Canna Coco Professional Plus është pa viruse të dëmshme dhe sëmundje të tokës.",
+			"Canna Coco Professional Plus ka një sistem kompleks të ujit/ajrit që ofron kushtet ideale për rritjen e bimëve.",
+			"Canna Coco Professional Plus mund të përdoret disa herë dhe përmirëson përzierjen e vazove edhe pas përdorimit.",
+		],
 		productInstructionsEN: [],
 		productInstructionsAL: [],
 		productImages: ["/Images/cocoProfPlus/cocoProfPlus50L.png"],
@@ -340,16 +430,24 @@ export const products: ProductType[] = [
 	{
 		productId: "coco-natural",
 		productName: "Canna Coco Natural",
-		productDescriptionEN: "",
-		productDescriptionAL: "",
+		productDescriptionEN: "Canna Coco Natural is a natural coco-based growing medium.",
+		productDescriptionAL: "Canna Coco Natural është një dhe kultivues natyral me bazë kokosi.",
 		productMiniDescriptionEN:
 			"Canna Coco Natural is a natural coco-based plant medium that offers the gardener and his plants advantages in comparison with other substrates. It's an organic product that is free of diseases.",
 		productMiniDescriptionAL:
-			"Canna Coco Natural është një medium bimor natyral me bazë kokosi që i ofron kopshtarit dhe bimëve të tij avantazhe në krahasim me substratet e tjera. Është një produkt organik që nuk ka sëmundje.",
+			"Canna Coco Natural është një dhe bimor natyral me bazë kokosi që i ofron kopshtarit dhe bimëve të tij avantazhe në krahasim me substratet e tjera. Është një produkt organik që nuk ka sëmundje.",
 		productAdvantagesEN: [],
 		productAdvantagesAL: [],
-		productInstructionsEN: [],
-		productInstructionsAL: [],
+		productInstructionsEN: [
+			"Canna Coco Natural is an organic product that is free of harmful viruses or soil diseases.",
+			"Canna Coco Natural has an excellent water/air system, that provides the ideal circumstances for this cultivation method.",
+			"Canna Coco Natural can be used a number of times.",
+		],
+		productInstructionsAL: [
+			"Canna Coco Natural është një produkt organik që është pa viruse të dëmshme ose sëmundje të tokës.",
+			"Canna Coco Natural ka një sistem të shkëlqyer uji/ajri, që ofron rrethanat ideale për këtë metodë kultivimi.",
+			"Canna Coco Natural mund të përdoret disa herë.",
+		],
 		productImages: ["/Images/cocoNatural/cocoNatural50L.png"],
 		productBestseller: false,
 		productSizes: [50],
