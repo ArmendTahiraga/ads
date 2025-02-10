@@ -455,6 +455,49 @@ export const products: ProductType[] = [
 		productVideo: "",
 	},
 	{
+		productId: "cannastart",
+		productName: "Canna Start",
+		productDescriptionEN:
+			"Canna Start is a balanced one-part nutrient solution specially formulated for seedlings and rooted cuttings. It provides all the essential micro and macro nutrients needed for young plants to develop into strong, healthy specimens. Canna Start can be used in a variety of propagation media, such as rockwool plugs, coco pellets, plugs, seed mixes and most other propagation media, with the exception of recirculating systems and cloning machines.",
+		productDescriptionAL:
+			"Canna Start është një zgjidhje ushqyese e ekuilibruar me një pjesë e krijuar posaçërisht për fidanë dhe prerje me rrënjë. Ai siguron të gjithë elementët thelbësorë mikro dhe makro ushqyes të nevojshëm që bimët e reja të zhvillohen në ekzemplarë të fortë dhe të shëndetshëm. Canna Start mund të përdoret në nënshtresa të ndryshme shumimi, të tilla si priza leshi guri, fishekë kokosi, priza, përzierje farash dhe shumica e mjeteve të tjera të përhapjes, me përjashtim të sistemeve të riqarkullimit dhe makinave të klonimit.",
+		productMiniDescriptionEN:
+			"Canna Start is a balanced one-part nutrient solution specially formulated for seedlings and rooted cuttings. It provides all the essential micro and macro nutrients needed for young plants to develop into strong, healthy specimens.",
+		productMiniDescriptionAL:
+			"Canna Start është një zgjidhje ushqyese e ekuilibruar me një pjesë e krijuar posaçërisht për fidanë dhe prerje me rrënjë. Ai siguron të gjithë elementët thelbësorë mikro dhe makro ushqyes të nevojshëm që bimët e reja të zhvillohen në ekzemplarë të fortë dhe të shëndetshëm.",
+		productAdvantagesEN: [
+			"Complete nutrition: Canna Start offers a comprehensive nutrient profile tailored to the needs of seedlings and cuttings, ensuring that they receive the right balance of nutrients during their initial growth phases.",
+			"Prevents overfeeding: Young plants have different nutrient requirements compared to mature plants. Using a nutrient solution formulated for mature plants can lead to overfeeding. Canna Start reduces this risk by providing nutrients in appropriate concentrations for young plants.",
+			"Reduces yellowing: Diluting standard vegetative nutrients to suit seedlings often results in insufficient micro and macro elements, leading to yellowing of the plant material. Canna Start prevents this by providing the correct ratios of the nutrients needed.",
+		],
+		productAdvantagesAL: [
+			"Ushqyerja e plotë: Canna Start ofron një profil gjithëpërfshirës të lëndëve ushqyese të përshtatur për nevojat e fidanëve dhe prerjeve, duke siguruar që ata të marrin ekuilibrin e duhur të lëndëve ushqyese gjatë fazave të tyre fillestare të rritjes.",
+			"Parandalon mbiushqyerjen: Bimët e reja kanë kërkesa të ndryshme ushqyese në krahasim me bimët e pjekura. Përdorimi i një solucioni ushqyes të formuluar për bimët e pjekura mund të çojë në mbiushqyerje. Canna Start e redukton këtë rrezik duke siguruar lëndë ushqyese në përqendrime të përshtatshme për bimët e reja.",
+			"Zvogëlon zverdhjet: Hollimi i lëndëve ushqyese vegjetative standarde për t'iu përshtatur fidanëve shpesh rezulton në elementë të pamjaftueshëm mikro dhe makro, duke çuar në zverdhje të materialit bimor. Canna Start e parandalon këtë duke siguruar raportet e sakta të lëndëve ushqyese të nevojshme.",
+		],
+		productInstructionsEN: [
+			"Shake well: Shake the bottle thoroughly before use.",
+			"Prepare the nutrient solution: Fill your nutrient reservoir with water.",
+			"Dosage: Dilute 40 ml of Canna Start concentrate per 10 liters of water (a dilution ratio of 1:250).",
+			"Check the EC: The electrical conductivity (EC) of the solution should range between 0.7 - 1.3 mS/cm², depending on the initial EC of your water.",
+			"Adjust pH: Aim for a pH between 5.2 - 6.2, depending on the substrate.",
+			"Application: Apply the nutrient solution to your seedlings or cuttings, ensuring sufficient drainage (approximately 10%).",
+		],
+		productInstructionsAL: [
+			"Shkundni mirë: Para përdorimit, tundeni shishen tërësisht.",
+			"Përgatitni tretësirën ushqyese: Mbushni rezervuarin tuaj të lëndëve ushqyese me ujë.",
+			"Dozimi: Tretni 40 ml koncentrat Canna Start për 10 litra ujë (një raport hollimi 1:250).",
+			"Kontrolloni EC: Përçueshmëria elektrike (EC) e tretësirës duhet të variojë midis 0,7 - 1,3 mS/cm², në varësi të EC fillestare të ujit tuaj.",
+			"Rregulloni pH: synoni për një pH midis 5,2 - 6,2, në varësi të substratit.",
+			"Aplikimi: Aplikoni tretësirën ushqyese në fidanët ose kërcellet tuaja, duke siguruar kullim të mjaftueshëm (afërsisht 10%).",
+		],
+		productImages: ["/Images/cannastart/cannastart1L.jpg", "/Images/cannastart/cannastart5L.jpg"],
+		productBestseller: false,
+		productSizes: [1, 5],
+		productPrices: [18, 40],
+		productVideo: "",
+	},
+	{
 		productId: "ph-bloom",
 		productName: "PH- Bloom/PH- Bloom Pro",
 		productDescriptionEN:
@@ -553,52 +596,9 @@ export const products: ProductType[] = [
 		productInstructionsAL: [
 			"Masat e sigurisë: Gjithmonë vishni veshje të përshtatshme mbrojtëse, duke përfshirë doreza dhe mbrojtje për sytë, kur përdorni",
 		],
-		productImages: ["/Images/ph+/ph+.jpg", "/Images/ph+pro/ph+pro.jpg"],
+		productImages: ["/Images/ph+/ph+.jpg", "/Images/ph+/ph+pro.jpg"],
 		productBestseller: false,
 		productSizes: [1, 1],
-		productPrices: [18, 40],
-		productVideo: "",
-	},
-	{
-		productId: "cannastart",
-		productName: "Canna Start",
-		productDescriptionEN:
-			"Canna Start is a balanced one-part nutrient solution specially formulated for seedlings and rooted cuttings. It provides all the essential micro and macro nutrients needed for young plants to develop into strong, healthy specimens. Canna Start can be used in a variety of propagation media, such as rockwool plugs, coco pellets, plugs, seed mixes and most other propagation media, with the exception of recirculating systems and cloning machines.",
-		productDescriptionAL:
-			"Canna Start është një zgjidhje ushqyese e ekuilibruar me një pjesë e krijuar posaçërisht për fidanë dhe prerje me rrënjë. Ai siguron të gjithë elementët thelbësorë mikro dhe makro ushqyes të nevojshëm që bimët e reja të zhvillohen në ekzemplarë të fortë dhe të shëndetshëm. Canna Start mund të përdoret në nënshtresa të ndryshme shumimi, të tilla si priza leshi guri, fishekë kokosi, priza, përzierje farash dhe shumica e mjeteve të tjera të përhapjes, me përjashtim të sistemeve të riqarkullimit dhe makinave të klonimit.",
-		productMiniDescriptionEN:
-			"Canna Start is a balanced one-part nutrient solution specially formulated for seedlings and rooted cuttings. It provides all the essential micro and macro nutrients needed for young plants to develop into strong, healthy specimens.",
-		productMiniDescriptionAL:
-			"Canna Start është një zgjidhje ushqyese e ekuilibruar me një pjesë e krijuar posaçërisht për fidanë dhe prerje me rrënjë. Ai siguron të gjithë elementët thelbësorë mikro dhe makro ushqyes të nevojshëm që bimët e reja të zhvillohen në ekzemplarë të fortë dhe të shëndetshëm.",
-		productAdvantagesEN: [
-			"Complete nutrition: Canna Start offers a comprehensive nutrient profile tailored to the needs of seedlings and cuttings, ensuring that they receive the right balance of nutrients during their initial growth phases.",
-			"Prevents overfeeding: Young plants have different nutrient requirements compared to mature plants. Using a nutrient solution formulated for mature plants can lead to overfeeding. Canna Start reduces this risk by providing nutrients in appropriate concentrations for young plants.",
-			"Reduces yellowing: Diluting standard vegetative nutrients to suit seedlings often results in insufficient micro and macro elements, leading to yellowing of the plant material. Canna Start prevents this by providing the correct ratios of the nutrients needed.",
-		],
-		productAdvantagesAL: [
-			"Ushqyerja e plotë: Canna Start ofron një profil gjithëpërfshirës të lëndëve ushqyese të përshtatur për nevojat e fidanëve dhe prerjeve, duke siguruar që ata të marrin ekuilibrin e duhur të lëndëve ushqyese gjatë fazave të tyre fillestare të rritjes.",
-			"Parandalon mbiushqyerjen: Bimët e reja kanë kërkesa të ndryshme ushqyese në krahasim me bimët e pjekura. Përdorimi i një solucioni ushqyes të formuluar për bimët e pjekura mund të çojë në mbiushqyerje. Canna Start e redukton këtë rrezik duke siguruar lëndë ushqyese në përqendrime të përshtatshme për bimët e reja.",
-			"Zvogëlon zverdhjet: Hollimi i lëndëve ushqyese vegjetative standarde për t'iu përshtatur fidanëve shpesh rezulton në elementë të pamjaftueshëm mikro dhe makro, duke çuar në zverdhje të materialit bimor. Canna Start e parandalon këtë duke siguruar raportet e sakta të lëndëve ushqyese të nevojshme.",
-		],
-		productInstructionsEN: [
-			"Shake well: Shake the bottle thoroughly before use.",
-			"Prepare the nutrient solution: Fill your nutrient reservoir with water.",
-			"Dosage: Dilute 40 ml of Canna Start concentrate per 10 liters of water (a dilution ratio of 1:250).",
-			"Check the EC: The electrical conductivity (EC) of the solution should range between 0.7 - 1.3 mS/cm², depending on the initial EC of your water.",
-			"Adjust pH: Aim for a pH between 5.2 - 6.2, depending on the substrate.",
-			"Application: Apply the nutrient solution to your seedlings or cuttings, ensuring sufficient drainage (approximately 10%).",
-		],
-		productInstructionsAL: [
-			"Shkundni mirë: Para përdorimit, tundeni shishen tërësisht.",
-			"Përgatitni tretësirën ushqyese: Mbushni rezervuarin tuaj të lëndëve ushqyese me ujë.",
-			"Dozimi: Tretni 40 ml koncentrat Canna Start për 10 litra ujë (një raport hollimi 1:250).",
-			"Kontrolloni EC: Përçueshmëria elektrike (EC) e tretësirës duhet të variojë midis 0,7 - 1,3 mS/cm², në varësi të EC fillestare të ujit tuaj.",
-			"Rregulloni pH: synoni për një pH midis 5,2 - 6,2, në varësi të substratit.",
-			"Aplikimi: Aplikoni tretësirën ushqyese në fidanët ose kërcellet tuaja, duke siguruar kullim të mjaftueshëm (afërsisht 10%).",
-		],
-		productImages: ["/Images/cannastart/cannastart1L.jpg", "/Images/cannastart/cannastart5L.jpg"],
-		productBestseller: false,
-		productSizes: [1, 5],
 		productPrices: [18, 40],
 		productVideo: "",
 	},
