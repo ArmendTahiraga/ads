@@ -454,4 +454,152 @@ export const products: ProductType[] = [
 		productPrices: [19],
 		productVideo: "",
 	},
+	{
+		productId: "ph-bloom",
+		productName: "PH- Bloom/PH- Bloom Pro",
+		productDescriptionEN:
+			"PH- Bloom is a PH reducer designed for the flowering phase of plants. It is used to lower the PH level of the nutrient solution during the flowering cycle, ensuring optimal nutrient availability. This product usually contains phosphoric acid as its active ingredient.",
+		productDescriptionAL:
+			"PH- Bloom është një reduktues PH i krijuar për fazën e lulëzimit të bimëve. Përdoret për të ulur nivelin e PH të tretësirës ushqyese gjatë ciklit të lulëzimit, duke siguruar disponueshmëri optimale të lëndëve ushqyese. Ky produkt zakonisht përmban acid fosforik si përbërës aktiv të tij.",
+		productMiniDescriptionEN:
+			"PH- Bloom is a PH reducer designed for the flowering phase of plants. It is used to lower the PH level of the nutrient solution during the flowering cycle.",
+		productMiniDescriptionAL:
+			"PH- Bloom është një reduktues PH i krijuar për fazën e lulëzimit të bimëve. Përdoret për të ulur nivelin e PH të tretësirës ushqyese gjatë ciklit të lulëzimit.",
+		productAdvantagesEN: [
+			"Ensures nutrient availability: During the flowering phase, maintaining the correct PH is essential for the uptake of nutrients specific to flowering.",
+			"Phase-specific formulation: PH- Bloom is tailored for the flowering phase, ensuring that pH adjustments support the changing nutrient requirements of plants.",
+		],
+		productAdvantagesAL: [
+			"Siguron disponueshmërinë e lëndëve ushqyese: Gjatë fazës së lulëzimit, mbajtja e PH-së së duhur është thelbësore për marrjen e lëndëve ushqyese specifike për lulëzimin.",
+			"Formulimi specifik për fazën: PH- Bloom është përshtatur për fazën e lulëzimit, duke siguruar që rregullimet e pH të mbështesin kërkesat në ndryshim të bimëve ushqyese.",
+		],
+		productInstructionsEN: [
+			"Safety precautions: Wear appropriate protective clothing, including gloves and eye protection, when using PH adjusters.",
+			"Add in growth: After preparing your nutrient solution, add PH- Bloom in small doses (e.g., 5 ml) to the nutrient reservoir.",
+			"Mix and measure: Mix the solution thoroughly and measure the PH after each addition.",
+			"Adjust as needed: Continue the process of adding, mixing, and measuring until the desired PH level is reached, usually around 6.2 for the bloom phase.",
+		],
+		productInstructionsAL: [
+			"Masat paraprake të sigurisë: Vishni veshje të përshtatshme mbrojtëse, duke përfshirë doreza dhe mbrojtje për sytë, kur përdorni rregullues të PH.",
+			"Shtimi në rritje: Pasi të keni përgatitur tretësirën tuaj ushqyese, shtoni PH- Bloom në doza të vogla (p.sh., 5 ml) në rezervuarin e lëndëve ushqyese.",
+			"Përzieni dhe matni: Përzieni plotësisht tretësirën dhe matni PH pas çdo shtimi.",
+			"Rregulloni sipas nevojës: Vazhdoni procesin e shtimit, përzierjes dhe matjes derisa të arrihet niveli i PH i dëshiruar, zakonisht rreth 6.2 për fazën e lulëzimit.",
+		],
+		productImages: ["/Images/ph-bloom/ph-bloom.jpg", "/Images/ph-bloom/ph-bloompro.jpg"],
+		productBestseller: false,
+		productSizes: [1, 1],
+		productPrices: [18, 40],
+		productVideo: "",
+	},
+	{
+		productId: "ph-grow",
+		productName: "PH- Grow/PH- Grow Pro",
+		productDescriptionEN:
+			"PH- Grow is a PH reducer specifically formulated for the vegetative (growth) phase of plants. It is used to lower the PH level of the nutrient solution during the vegetative cycle, ensuring optimal nutrient availability. This product typically contains nitric acid as its active ingredient.",
+		productDescriptionAL:
+			"PH- Grow është një reduktues PH i formuluar posaçërisht për fazën vegjetative (rritje) të bimëve. Përdoret për të ulur nivelin e PH të tretësirës ushqyese gjatë ciklit vegjetativ, duke siguruar disponueshmëri optimale të lëndëve ushqyese. Ky produkt zakonisht përmban acid nitrik si përbërës aktiv të tij.",
+		productMiniDescriptionEN:
+			"PH- Grow is a PH reducer specifically formulated for the vegetative (growth) phase of plants. It is used to lower the PH level of the nutrient solution during the vegetative cycle.",
+		productMiniDescriptionAL:
+			"PH- Grow është një reduktues PH i formuluar posaçërisht për fazën vegjetative (rritje) të bimëve. Përdoret për të ulur nivelin e PH të tretësirës ushqyese gjatë ciklit vegjetativ.",
+		productAdvantagesEN: [
+			"Optimal nutrient uptake: Maintaining the correct pH level is essential for nutrient absorption. If the PH is too high, some nutrients become less available to plants, potentially leading to deficiencies.",
+			"Phase-specific formulation: PH- Grow is tailored for the growth phase, ensuring that pH adjustments match the plant's nutritional needs during this period.",
+		],
+		productAdvantagesAL: [
+			"Marrja optimale e lëndëve ushqyese: Ruajtja e nivelit të duhur të pH është thelbësore për përthithjen e lëndëve ushqyese. Nëse PH është shumë i lartë, disa lëndë ushqyese bëhen më pak të disponueshme për bimët, duke çuar potencialisht në mangësi.",
+			"Formulimi specifik për fazën: PH- Grow është përshtatur për fazën e rritjes, duke siguruar që rregullimet e pH të përputhen me nevojat ushqyese të bimës gjatë kësaj periudhe.",
+		],
+		productInstructionsEN: [
+			"Safety first: Always wear appropriate protective clothing, including gloves and eye protection, when using PH adjusters.",
+			"Add in small amounts: After preparing your nutrient solution, add PH- Increase in very small increments (e.g., 5 ml) to the nutrient reservoir.",
+			"Mix and measure: Mix the solution thoroughly and measure the PH after each addition.",
+			"Repeat as needed: Continue adding small amounts, mixing and measuring until the desired PH level is reached, usually around 6.2 for the vegetative phase.",
+		],
+		productInstructionsAL: [
+			"Siguria e parë: Vishni gjithmonë veshje të përshtatshme mbrojtëse, duke përfshirë doreza dhe mbrojtje për sytë, kur përdorni rregullues të PH.",
+			"Shtoni në doza të vogla: Pasi të përgatisni tretësirën tuaj ushqyese, shtoni PH- Rriteni në ngritje shumë të vogla (p.sh., 5 ml) në rezervuarin e lëndëve ushqyese.",
+			"Përzieni dhe matni: Përzieni plotësisht tretësirën dhe matni PH pas çdo shtimi.",
+			"Përsëriteni sipas nevojës: Vazhdoni të shtoni sasi të vogla, përzieni dhe matni derisa të arrihet niveli i PH i dëshiruar, zakonisht rreth 6.2 për fazën vegjetative.",
+		],
+		productImages: ["/Images/ph-grow/ph-grow.jpg", "/Images/ph-grow/ph-growpro.jpg"],
+		productBestseller: false,
+		productSizes: [1, 1],
+		productPrices: [18, 40],
+		productVideo: "",
+	},
+	{
+		productId: "ph+",
+		productName: "PH+/PH+ Pro",
+		productDescriptionEN:
+			"PH+ is a pH increaser used to raise the pH level of the nutrient solution when it falls below the optimal range. Maintaining the correct pH is essential for nutrient uptake. Canna offers two different PH+ solutions: one at a 5% concentration for minor adjustments and one at 20% for larger corrections.",
+		productDescriptionAL:
+			"PH+ është një rritës pH që përdoret për të rritur nivelin e PH të tretësirës ushqyese kur ai bie nën kufirin optimal. Ruajtja e PH e duhur është thelbësore për marrjen e lëndëve ushqyese. Canna ofron dy zgjidhje të ndryshme të PH+: një me përqendrim 5% për rregullime të vogla dhe një në 20% për korrigjime më të mëdha.",
+		productMiniDescriptionEN:
+			"PH+ is a pH increaser used to raise the pH level of the nutrient solution when it falls below the optimal range. Maintaining the correct pH is essential for nutrient uptake.",
+		productMiniDescriptionAL:
+			"PH+ është një rritës pH që përdoret për të rritur nivelin e PH të tretësirës ushqyese kur ai bie nën kufirin optimal. Ruajtja e PH e duhur është thelbësore për marrjen e lëndëve ushqyese.",
+		productAdvantagesEN: [
+			"Corrects low pH: If the nutrient solution becomes too acidic, some nutrients may become unavailable to the plants. Using PH+ helps to return the pH to the optimal range, ensuring balanced nutrient uptake.",
+			"Versatile application: Suitable for use during the growth and flowering phase, allowing for consistent pH management throughout the plant's life cycle.",
+		],
+		productAdvantagesAL: [
+			"Korrigjon PH të ulët: Nëse tretësira ushqyese bëhet shumë acid, disa lëndë ushqyese mund të bëhen të padisponueshme për bimët. Përdorimi i PH+ ndihmon në kthimin e PH-së në intervalin optimal, duke siguruar marrjen e ekuilibruar të lëndëve ushqyese.",
+			"Aplikim i gjithanshëm: I përshtatshëm për përdorim gjatë fazës së rritjes dhe lulëzimit, duke lejuar një menaxhim të qëndrueshëm të PH gjatë ciklit jetësor të bimës.",
+		],
+		productInstructionsEN: [
+			"Safety precautions: Always wear appropriate protective clothing, including gloves and eye protection, when using",
+		],
+		productInstructionsAL: [
+			"Masat e sigurisë: Gjithmonë vishni veshje të përshtatshme mbrojtëse, duke përfshirë doreza dhe mbrojtje për sytë, kur përdorni",
+		],
+		productImages: ["/Images/ph+/ph+.jpg", "/Images/ph+pro/ph+pro.jpg"],
+		productBestseller: false,
+		productSizes: [1, 1],
+		productPrices: [18, 40],
+		productVideo: "",
+	},
+	{
+		productId: "cannastart",
+		productName: "Canna Start",
+		productDescriptionEN:
+			"Canna Start is a balanced one-part nutrient solution specially formulated for seedlings and rooted cuttings. It provides all the essential micro and macro nutrients needed for young plants to develop into strong, healthy specimens. Canna Start can be used in a variety of propagation media, such as rockwool plugs, coco pellets, plugs, seed mixes and most other propagation media, with the exception of recirculating systems and cloning machines.",
+		productDescriptionAL:
+			"Canna Start është një zgjidhje ushqyese e ekuilibruar me një pjesë e krijuar posaçërisht për fidanë dhe prerje me rrënjë. Ai siguron të gjithë elementët thelbësorë mikro dhe makro ushqyes të nevojshëm që bimët e reja të zhvillohen në ekzemplarë të fortë dhe të shëndetshëm. Canna Start mund të përdoret në nënshtresa të ndryshme shumimi, të tilla si priza leshi guri, fishekë kokosi, priza, përzierje farash dhe shumica e mjeteve të tjera të përhapjes, me përjashtim të sistemeve të riqarkullimit dhe makinave të klonimit.",
+		productMiniDescriptionEN:
+			"Canna Start is a balanced one-part nutrient solution specially formulated for seedlings and rooted cuttings. It provides all the essential micro and macro nutrients needed for young plants to develop into strong, healthy specimens.",
+		productMiniDescriptionAL:
+			"Canna Start është një zgjidhje ushqyese e ekuilibruar me një pjesë e krijuar posaçërisht për fidanë dhe prerje me rrënjë. Ai siguron të gjithë elementët thelbësorë mikro dhe makro ushqyes të nevojshëm që bimët e reja të zhvillohen në ekzemplarë të fortë dhe të shëndetshëm.",
+		productAdvantagesEN: [
+			"Complete nutrition: Canna Start offers a comprehensive nutrient profile tailored to the needs of seedlings and cuttings, ensuring that they receive the right balance of nutrients during their initial growth phases.",
+			"Prevents overfeeding: Young plants have different nutrient requirements compared to mature plants. Using a nutrient solution formulated for mature plants can lead to overfeeding. Canna Start reduces this risk by providing nutrients in appropriate concentrations for young plants.",
+			"Reduces yellowing: Diluting standard vegetative nutrients to suit seedlings often results in insufficient micro and macro elements, leading to yellowing of the plant material. Canna Start prevents this by providing the correct ratios of the nutrients needed.",
+		],
+		productAdvantagesAL: [
+			"Ushqyerja e plotë: Canna Start ofron një profil gjithëpërfshirës të lëndëve ushqyese të përshtatur për nevojat e fidanëve dhe prerjeve, duke siguruar që ata të marrin ekuilibrin e duhur të lëndëve ushqyese gjatë fazave të tyre fillestare të rritjes.",
+			"Parandalon mbiushqyerjen: Bimët e reja kanë kërkesa të ndryshme ushqyese në krahasim me bimët e pjekura. Përdorimi i një solucioni ushqyes të formuluar për bimët e pjekura mund të çojë në mbiushqyerje. Canna Start e redukton këtë rrezik duke siguruar lëndë ushqyese në përqendrime të përshtatshme për bimët e reja.",
+			"Zvogëlon zverdhjet: Hollimi i lëndëve ushqyese vegjetative standarde për t'iu përshtatur fidanëve shpesh rezulton në elementë të pamjaftueshëm mikro dhe makro, duke çuar në zverdhje të materialit bimor. Canna Start e parandalon këtë duke siguruar raportet e sakta të lëndëve ushqyese të nevojshme.",
+		],
+		productInstructionsEN: [
+			"Shake well: Shake the bottle thoroughly before use.",
+			"Prepare the nutrient solution: Fill your nutrient reservoir with water.",
+			"Dosage: Dilute 40 ml of Canna Start concentrate per 10 liters of water (a dilution ratio of 1:250).",
+			"Check the EC: The electrical conductivity (EC) of the solution should range between 0.7 - 1.3 mS/cm², depending on the initial EC of your water.",
+			"Adjust pH: Aim for a pH between 5.2 - 6.2, depending on the substrate.",
+			"Application: Apply the nutrient solution to your seedlings or cuttings, ensuring sufficient drainage (approximately 10%).",
+		],
+		productInstructionsAL: [
+			"Shkundni mirë: Para përdorimit, tundeni shishen tërësisht.",
+			"Përgatitni tretësirën ushqyese: Mbushni rezervuarin tuaj të lëndëve ushqyese me ujë.",
+			"Dozimi: Tretni 40 ml koncentrat Canna Start për 10 litra ujë (një raport hollimi 1:250).",
+			"Kontrolloni EC: Përçueshmëria elektrike (EC) e tretësirës duhet të variojë midis 0,7 - 1,3 mS/cm², në varësi të EC fillestare të ujit tuaj.",
+			"Rregulloni pH: synoni për një pH midis 5,2 - 6,2, në varësi të substratit.",
+			"Aplikimi: Aplikoni tretësirën ushqyese në fidanët ose kërcellet tuaja, duke siguruar kullim të mjaftueshëm (afërsisht 10%).",
+		],
+		productImages: ["/Images/cannastart/cannastart1L.jpg", "/Images/cannastart/cannastart5L.jpg"],
+		productBestseller: false,
+		productSizes: [1, 5],
+		productPrices: [18, 40],
+		productVideo: "",
+	},
 ];
